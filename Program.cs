@@ -33,7 +33,10 @@ while (true)
                 QuotientRemainder quotientRemainder = new QuotientRemainder();
                 quotientRemainder.QandR();
                 break;
-            
+            case 7:
+                SwapNumbers swapTwoNumbers = new SwapNumbers();
+                swapTwoNumbers.Swap();
+                break;
         }
     }
     
