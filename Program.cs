@@ -3,7 +3,7 @@
 while (true)
 {
     Console.WriteLine("Enter the Choice \n 1)Filp Coin\n2)Leap Year\n3)Power Of 2\n" +
-        "4)Harmonic Number");
+        "4)Harmonic Number\n5)Prime Factor");
     int choice = Convert.ToInt32(Console.ReadLine());
     if (choice != 0)
     {
@@ -24,6 +24,10 @@ while (true)
             case 4:
                 HarmonicNumber harmonicNumber = new HarmonicNumber();
                 harmonicNumber.Harmonic();
+                break;
+            case 5:
+                PrimeFactors primeFactor = new PrimeFactors();
+                primeFactor.Factor();
                 break;
         }
     }
